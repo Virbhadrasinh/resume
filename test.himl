@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>A4</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Normalize or reset CSS with your favorite library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+  <!-- Load paper.css for happy printing -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css">
+
+  <!-- Set page size here: A5, A4 or A3 -->
+  <!-- Set also "landscape" if you need -->
+  <style>@page { size: A4 }</style>
+    <style>* {
+                font-family: 'Source Sans Pro', sans-serif;    
+                font-weight: 400;
+                font-size: 15px;
+                color: #333333;
+                letter-spacing: 0.2px;
+                text-align: justify;
+            }
+            .bold {
+                font-weight: 600;
+            }
+    </style>
+</head>
+
+<!-- Set "A5", "A4" or "A3" for class name -->
+<!-- Set also "landscape" if you need -->
+<body class="A4">
+
+  <!-- Each sheet element should have the class "sheet" -->
+  <!-- "padding-**mm" is optional: you can set 10, 15, 20 or 25 -->
+  <section class="sheet" style="border-top: 20px solid #3d3c3f;">
+    <div style="width: 30%;background-color: #e8e9eb;height: 100%;float: left;">
+        <div style="padding-left: 20px;padding-right: 20px;word-break: break-all;">
+          <div style="text-align: center;">
+            <div style="text-align: center;display: inline-block;margin-top: 37px;height: 150px;width: 150px;padding: 3px;border-radius: 50%;border: 2px solid #4d4d4f;background-color: #ebebeb;">
+              <div style="background-image: url('./vir_photo.jpg');height: 150px;width: 150px;background-position: 37% 9%;background-size: 226%;border-radius: 50%;background-repeat: no-repeat;display: inline-block;"></div>
+            </div>  
+          </div>
+
+
+
+        </div>
+    </div>
+    <div style="width: 70%;background-color: #f3f3f3;height: 100%;float: left;">
+        <div style="padding-left: 20px;padding-right: 20px;word-break: break-all;">
+            <div class="bold" style="font-size: 35px;margin-top: 30px;">Virbhadrasinh Chauhan</div>
+            <div style="font-style: italic;">Bridging Business Problems & Technology Solutions</div>
+
+            <div style="border-bottom: 3px solid #bcbcbc;margin-top: 20px;padding-bottom: 5px;">
+                <i class="fas fa-bars" style="font-size: 17px;padding-left: 5px;position: relative;top: 1px;"></i>
+                <span class="bold" style="font-size: 20px;padding-left: 5px;">Summary</span>
+            </div>
+
+            <div>
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <span></span>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

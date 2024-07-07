@@ -54,15 +54,22 @@
 
 .header .header-tag-line {
   color: #e14f44;
-  font-size: 24px;
-  min-height: 24px;
+  font-size: 16px;
+  min-height: 16px;
   line-height: 26px;
   font-style: italic;
 }
 
 .header-summary {
-  width: 85%;
+  width: 84%;
 }
+
+.summary-text-head {
+  color: #FFF;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 
 .header-summary-2 {
   width: 100%;
@@ -72,13 +79,13 @@
   font-size: 16px;
   min-height: 16px;
   line-height: 20px;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .header-image-main {
   position: absolute;
-  right: 35px;
-  top: 22px;
+  right: 25px;
+  top: 20px;
 }
 
 .header-image-wrapper {
@@ -101,7 +108,7 @@
   z-index: 35;
   background-size: 100% 100%;
   border-radius: 50%;
-  border: 6px solid #e14f44;
+  border: 2px solid #e14f44;
 }
 
 

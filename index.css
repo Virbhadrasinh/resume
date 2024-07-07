@@ -61,7 +61,7 @@
 }
 
 .header-summary {
-  width: 84%;
+  width: 90%;
 }
 
 .summary-text-head {
@@ -70,7 +70,6 @@
   font-weight: 500;
 }
 
-
 .header-summary-2 {
   width: 100%;
 }
@@ -78,7 +77,7 @@
 .header .summary-text {
   font-size: 16px;
   min-height: 16px;
-  line-height: 20px;
+  line-height: 22px;
   margin: 15px 0;
 }
 
@@ -89,10 +88,10 @@
 }
 
 .header-image-wrapper {
-  max-width: 220px;
-  max-height: 220px;
-  width: 160px;
-  height: 160px;
+  max-width: 120px;
+  max-height: 120px;
+  width: 120px;
+  height: 120px;
   overflow: hidden;
   z-index: 22;
 }

@@ -41,9 +41,10 @@
 }
 
 .header-links-text {
-  margin-right: 20px;
+  margin-right: 40px;
   display: inline-block;
-  padding-top: 8px;
+  padding-top: 10px;
+  font-size: 14px;
 }
 
 .header-name {
@@ -116,7 +117,7 @@
   height: 35px;
   width: 104%;
   text-align: center;
-  margin: 0 -20px;
+  margin: 0 -22px;
 }
 
 .left-sub-section {

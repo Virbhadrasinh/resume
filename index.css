@@ -108,7 +108,7 @@
   z-index: 35;
   background-size: 100% 100%;
   border-radius: 50%;
-  border: 2px solid #e14f44;
+  border: 4px solid #e14f44;
 }
 
 
@@ -123,12 +123,12 @@
 .left-sub-section {
   width: 65%;
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .right-sub-section {
   width: 35%;
-  margin-top: 20px;
+  margin-top: 10px;
   float: left;
 }
 
@@ -201,14 +201,14 @@
 }
 
 .skills, .domain-expertise, .education {
-  padding-right: 30px;
+  padding-right: 13px;
 }
 
 .badges-box {
   padding: 5px;
   border: 1px solid #e14f44;
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 12px;
   font-size: 16px;
   min-height: 16px;
   line-height: 22px;
@@ -218,4 +218,21 @@
 
 .sub-section-body-content-2 {
   margin-top: 10px;
+}
+
+.sub-section-body-content-3 {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.absolute-gutter-line {
+  position: absolute;
+  height: 2000px;
+  width: 1px;
+  border: 1px solid #b8b8b8;
+  right: 374px;
+}
+
+.sub-section-body-content-4 {
+  margin-top: 16px;
 }
